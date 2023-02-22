@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <title>Ohmyfood</title>
   </head>
   <body>
-    <header>
-      <h1 class="header">Ohmyfood</h1>
-      <em class="header">Paris, Belleville</em>
-      <h2 class="header">Réservez le menu qui vous convient</h2>
-      <em class="header"
-        >Décrouvrez des restaurants d'exception, sélecionnés par nos soins</em
-      >
-      <button class="header" type="button" onclick="window.location.href = ' '">
-        Explorer nos restaurants
-      </button>
+    <header><div id="logo" class="header">
+      <img src="images/logo/ohmyfood@2x.svg" alt="ALC">
+    </div>
+      <div class="location"><em class="header"><i class="fa-solid fa-location-dot"></i>Paris, Belleville</em></div>
+        <div class="header_block">
+          <div class="header_text_block">
+          <h2 class="header">Réservez le menu qui vous convient</h2>
+          <span><em class="header"
+          >Décrouvrez des restaurants d'exception, sélecionnés par nos soins</em>
+          </span>
+          </div>
+          <div class="button"><button class="header" type="button" onclick="window.location.href = ' '">
+          <span>Explorer nos restaurants</span>
+          </button>
+        </div> 
+      </div>   
     </header>
     <main>
       <div>

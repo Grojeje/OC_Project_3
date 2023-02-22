@@ -1,1 +1,18 @@
-$colorPrimary : #9356DC; 
+/*-----------------color---------------------*/
+
+$colorPrimary : #9356DC;
+$colorSecondary : #FF79DA;
+$colorTertiary : #99E2D0;
+$colorGroundPrimary : #eaeaea;
+$colorGroundSecondary : #f7f7f7;
+$fontFamilyPrimary : Roboto;
+
+/*------------------button--------------------*/
+
+button {
+    border-radius: 50px;
+    height: 50px;
+    background: linear-gradient(to right bottom, $colorSecondary, $colorPrimary);
+    border: none;
+    box-shadow: 2px 2px 2px 2px #e9e9e9;
+}
