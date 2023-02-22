@@ -1,0 +1,23 @@
+/*----------------main home page---------------*/
+
+.explain_block {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        .explain_btn_block {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-block: 15px;
+            .explain_btn {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}
