@@ -21,3 +21,23 @@
         }
     }
 }
+.main_block {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f7f7f7;
+    padding-top: 30px;
+    h3 {
+        margin-inline: 20px;
+    }
+    .article_block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-inline: 20px;
+    }
+}
+
+
+
+/*-----------------footer--------------------*/
+
