@@ -38,9 +38,13 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
-            i {
-                
+            p {
+                display: flex;
             }
+        }
+        i {
+            align-items: baseline;
+            padding-right: 10px;
         }
     }
 }
@@ -49,3 +53,18 @@
 
 /*-----------------footer--------------------*/
 
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 20px;
+    img {
+        margin-top: 12px;
+    }
+    ul {
+        padding-inline-start: 0px;
+        li {
+            padding-block: 5px;
+        }
+    }
+}
