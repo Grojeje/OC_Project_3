@@ -5,9 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     div {
-        display: block;
         flex-wrap: wrap;
         width: 100%;
+        justify-content: space-evenly;
         .explain_btn_block {
             display: flex;
             flex-wrap: wrap;
@@ -17,6 +17,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
+                width: 100%;
             }
         }
     }
