@@ -1,7 +1,9 @@
 /*----------------main home page---------------*/
 
+.wrapper {
+    margin-inline: 20px;
+}
 .explain_block {
-    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     div {
@@ -10,14 +12,24 @@
         justify-content: space-evenly;
         .explain_btn_block {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             justify-content: center;
             margin-block: 15px;
+            align-items: baseline;
             .explain_btn {
-                display: flex;
                 flex-wrap: wrap;
+                align-items: center;
+            }
+            em {
+                display: flex;
                 justify-content: center;
-                width: 100%;
+                align-items: center;
+                margin: 0px;
+                margin-inline-end: -10px;
+                position: relative;
+            }
+            i {
+                margin-inline: 20px;
             }
         }
     }
@@ -27,14 +39,10 @@
     flex-wrap: wrap;
     background-color: #f7f7f7f7;
     padding-top: 30px;
-    h3 {
-        margin-inline: 20px;
-    }
     .article_block {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-inline: 20px;
         span {
             display: flex;
             flex-wrap: wrap;
