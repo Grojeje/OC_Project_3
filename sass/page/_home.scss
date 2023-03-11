@@ -1,15 +1,13 @@
 /*----------------main home page---------------*/
 
 .wrapper {
-    margin-inline: 20px;
+    margin: 40px 20px 60px 20px;
 }
 .explain_block {
     display: flex;
     flex-wrap: wrap;
     div {
-        flex-wrap: wrap;
         width: 100%;
-        justify-content: space-evenly;
         .explain_btn_block {
             display: flex;
             flex-wrap: nowrap;
@@ -28,9 +26,6 @@
                 margin-inline-end: -10px;
                 position: relative;
             }
-            i {
-                margin-inline: 20px;
-            }
         }
     }
 }
@@ -41,19 +36,24 @@
     padding-top: 30px;
     .article_block {
         display: flex;
-        justify-content: center;
+        align-items: baseline;
         flex-wrap: wrap;
-        span {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            p {
-                display: flex;
-            }
-        }
-        i {
+        .article {
+            justify-content: space-between;
             align-items: baseline;
-            padding-right: 10px;
+            .art_txt_block {
+                display: grid;
+                width: 100%;
+                .art_txt {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                }
+                .fa-heart {
+                    justify-self: end;
+                    padding-inline-end: 15px;
+                }
+            }
         }
     }
 }
