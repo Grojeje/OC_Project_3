@@ -86,34 +86,8 @@ article {
         opacity: 0;
         transition: all 150ms linear;
     }
-    .fa-solid:active,
     .fa-solid:focus {
         opacity: 1;
         color: $colorPrimary;
-    }
-}
-
-
-/*-----------------------------------footer----------------------------------*/
-
-
-footer {
-    background-color: #353535;
-    img {
-        height: 20px;
-        width: 100px;
-        filter: invert(1);
-    }
-    ul {
-        list-style-type: none;
-        li {
-            a{
-                color: white;
-                text-decoration: none;
-            }
-            i {
-                padding-right: 10px;
-            }
-        }
     }
 }
